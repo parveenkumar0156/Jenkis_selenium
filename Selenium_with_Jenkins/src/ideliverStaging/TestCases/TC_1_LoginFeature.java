@@ -23,6 +23,7 @@ public class TC_1_LoginFeature extends DriverInstance {
     login.enterusername(userEmail);
     login.enterPassword(UserPassword);
     login.clickSignIn();
+    System.out.println("Login success");
     }
 	
 	
