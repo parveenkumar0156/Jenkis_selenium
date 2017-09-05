@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50356" started-at="2017-09-05T11:35:23Z" finished-at="2017-09-05T11:36:14Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="50356" started-at="2017-09-05T11:35:23Z" finished-at="2017-09-05T11:36:14Z">
+      <class name="ideliverStaging.TestCases.TC_1_LoginFeature">
+        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:ideliverStaging.TestCases.TC_1_LoginFeature@19a81e8]" name="initiateDriver" is-config="true" duration-ms="24719" started-at="2017-09-05T17:05:24Z" finished-at="2017-09-05T17:05:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriver -->
+        <test-method status="PASS" signature="tc_1_login(java.lang.String, java.lang.String)[pri:0, instance:ideliverStaging.TestCases.TC_1_LoginFeature@19a81e8]" name="tc_1_login" duration-ms="2819" started-at="2017-09-05T17:05:48Z" data-provider="LoginData" finished-at="2017-09-05T17:05:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rekha.rani@classinformatics.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_1_login -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:ideliverStaging.TestCases.TC_1_LoginFeature@19a81e8]" name="closeDriver" is-config="true" duration-ms="5634" started-at="2017-09-05T17:05:51Z" finished-at="2017-09-05T17:05:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:ideliverStaging.TestCases.TC_1_LoginFeature@19a81e8]" name="initiateDriver" is-config="true" duration-ms="15056" started-at="2017-09-05T17:05:57Z" finished-at="2017-09-05T17:06:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriver -->
+        <test-method status="PASS" signature="tc_1_login(java.lang.String, java.lang.String)[pri:0, instance:ideliverStaging.TestCases.TC_1_LoginFeature@19a81e8]" name="tc_1_login" duration-ms="1216" started-at="2017-09-05T17:06:12Z" data-provider="LoginData" finished-at="2017-09-05T17:06:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hr.hasija@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_1_login -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:ideliverStaging.TestCases.TC_1_LoginFeature@19a81e8]" name="closeDriver" is-config="true" duration-ms="679" started-at="2017-09-05T17:06:13Z" finished-at="2017-09-05T17:06:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- ideliverStaging.TestCases.TC_1_LoginFeature -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

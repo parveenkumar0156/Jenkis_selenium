@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="ideliverStaging.TestCases.TC_1_LoginFeature"/>
+   <!--    <class name="ideliverStaging.TestCases.TC_2_Signup"/> -->
+      <class name="ideliverStaging.datagenerators.DataGenerator"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
